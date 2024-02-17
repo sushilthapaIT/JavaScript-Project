@@ -3,11 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div id="container">
-        
+        <h1 id="head">BMI Calculator</h1>
+
+        <form id="form">
+            <label>Calculate BMI for</label>
+            <br>
+            <label class="vweight">Weight: </label>
+            <input type="text" id="weight" placeholder="weight in kg">
+            <br>
+            <label class="vheight">Height: </label>
+            <input type="text" id="height" placeholder="height in meter">
+            <br>
+            <input type="text" id="result" placeholder="wait for your result" onclick="calculateBMI()">
+
+            <br>
+            <button id="butt" onclick="calculateBMI()">Your Bmi</button>
+
+
+
+        </form>
+
+        <div id="box">
+            <div id="inside">
+                <table id="tab">
+                    <tr>
+                        <td>BMI</td>
+                        <td>Status</td>
+                    </tr>
+                    
+                    <tr>
+                        <td id="yellow">less than 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+    
+                    <tr>
+                        <td id="green">18.5 - 24.9</td>
+                        <td>Normal</td>
+                    </tr>
+                    
+                    <tr>
+                        <td id="orange">25.0 - 39.9</td>
+                        <td>Overweight</td>
+                    </tr>
+    
+                    <tr>
+                        <td  id="red">over 40.0</td>
+                        <td>Obese</td>
+                    </tr>    
+                </table>
+            </div>
+        </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
