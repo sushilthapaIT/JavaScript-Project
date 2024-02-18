@@ -9,22 +9,17 @@
 <body>
     <div id="container">
         <h1 id="head">BMI Calculator</h1>
-        <div>
-            <form id="form">
-                <label>Calculate BMI for</label>
-                <br>
-                <label class="vweight">Weight: </label>
-                <input type="text" id="weight" placeholder="weight in kg">
-                <br>
-                <label class="vheight">Height: </label>
-                <input type="text" id="height" placeholder="height in meter">
-                <br>
-                <input type="text" id="result" placeholder="wait for your result">
-                <br>
-                <button id="butt" onclick="calculateBMI()">Your Bmi</button>
+            <div id="form">
+                <div id="tala">
+                    <label>Weight: </label>
+                    <input id="input1" type="text">
     
-            </form>
-        </div>
+                    <label>Height: </label>
+                    <input id="input2" type="text">
+                </div>
+                <h3 id="output"></h3>
+                <button type="button" id="butt" onclick="calculateBMI()">Result</button>
+            </div>
         <div id="box">
             <div id="inside">
                 <table id="tab">
@@ -57,21 +52,5 @@
         </div>
     </div>
 </body>
-<!-- <script src="C:\Users\Pav\Documents\GitHub\JavaScript-Project\BMI Calculator\script.js"></script> -->
-
-<script>
-    function calculateBMI() {
-    debugger;
-//    var weight = document.getElementById('weight').value;
-   console.log("agadirakhekoho");
-
-    // var weight = parseFloat(document.getElementById('weight').value);
-    // var height = parseFloat(document.getElementById('height').value);
-
-    // var bmi = weight / (height * height);
-    // document.getElementById('result').innerText = bmi.toFixed(2); // Display BMI rounded to 2 decimal places
-    // console.log(bmi);
-}
-
-</script>
+<script src="script.js"></script>
 </html>
