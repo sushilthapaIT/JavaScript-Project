@@ -8,7 +8,6 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
 
-
  
 for (let select of dropdowns) {
     for (currCode in countryList){
@@ -55,7 +54,6 @@ const updateFlag = (element) => {
     img.src = newSrc;
 }
 
-const updateMsg = 
 
 btn.addEventListener("click", (evt) => {
     evt.preventDefault();
