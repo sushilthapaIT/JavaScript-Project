@@ -5,15 +5,14 @@
     box-sizing: border-box;
 }
 
-
 body{
-    background: linear-gradient(90deg,#5b548a, #00feba);
+    background: linear-gradient(90deg,#000000, #000000);
 }
 
 .main-container{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(90deg, #00feba, #5b548a);
+    background: linear-gradient(180deg,#000000, #6b6b6b);
     color: #fff;
     margin: 10px auto 0;
     border-radius: 20px;
@@ -27,7 +26,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-        width: 90%;
+    width: 90%;
     max-width: 470px;
 }
 
@@ -48,8 +47,8 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -59,7 +58,6 @@ body{
 
 .weather-icon{
     width: 170px;
-    margin-top: 30px;
 }
 
 .weather h1{
@@ -79,6 +77,13 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .col{
@@ -96,3 +101,24 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+
+.weather{
+    display: none;
+}
+
+/* CSS to display error message */
+.error{
+   text-align: center;
+   margin-left: 10px; 
+   font-size: 19px;
+   font-weight: bolder;
+   margin-top: 10px;
+   display: none;
+   color: rgb(241, 64, 64);
+}
+
+
+.temperature{
+    margin-top: 20px;
+}
+
