@@ -1,3 +1,6 @@
+/* css */
+
+/* Resetting */
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +8,14 @@
     box-sizing: border-box;
 }
 
+/* changing color of body to black */
 body{
     background: linear-gradient(90deg,#000000, #000000);
 }
 
+
 .main-container{
-    width: 90%;
-    max-width: 470px;
+    width: fit-content;
     background: linear-gradient(180deg,#000000, #6b6b6b);
     color: #fff;
     margin: 10px auto 0;
@@ -47,7 +51,7 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 50px;
+    width: 90px;
     height: 50px;
     cursor: pointer;
 }
@@ -84,6 +88,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 25px;
 }
 
 .col{
@@ -122,3 +127,13 @@ body{
     margin-top: 20px;
 }
 
+
+.head{
+    
+    color: rgb(219, 210, 210);
+    border: none;
+    padding: 4px;
+    background-color: blueviolet;
+    font-size: 25px;
+    font-weight: bolder;
+}
