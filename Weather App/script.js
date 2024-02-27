@@ -13,6 +13,7 @@ async function checkWeather(city) {
         const data = await response.json();
 
         console.log(data);
+        console.log(response);
         if(response.status == 404)
         {
             document.querySelector(".error").style.display = "block";        
@@ -61,5 +62,11 @@ async function checkWeather(city) {
     }
 
 searchBtn.addEventListener("click", () => {
-    checkWeather(searchBox.value);
+    if(searchBox.value === ""){
+        alert("Cannot be empty");
+    }
+    else{
+        checkWeather(searchBox.value);
+        searchBox.value = "";
+    }
 })

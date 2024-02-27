@@ -10,18 +10,19 @@
 
 /* changing color of body to black */
 body{
-    background: linear-gradient(90deg,#000000, #000000);
+    background:  #263a47;
 }
 
 
 .main-container{
     width: fit-content;
-    background: linear-gradient(180deg,#000000, #6b6b6b);
+    background: #36454F;
     color: #fff;
     margin: 10px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .search{
@@ -129,11 +130,16 @@ body{
 
 
 .head{
-    
-    color: rgb(219, 210, 210);
+    text-align: center;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 4px;
-    background-color: blueviolet;
+    background-color: hsla(172, 49%, 63%, 0.842);
     font-size: 25px;
     font-weight: bolder;
+}
+
+#icon{
+    font-size: 25px;
+    margin-right: 5px;
 }
