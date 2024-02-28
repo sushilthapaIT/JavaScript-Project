@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+}
+
+.content{
+
+}
+
+
+.button{
+    border: none;
+    background-color: rgb(138, 87, 11);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px;
+}
