@@ -1,6 +1,6 @@
 // JavaScript
 // Sushil Thapa
-// Weather App
+// C0919991
 // 2024/02/27 
 
 //defining API key and API URL
