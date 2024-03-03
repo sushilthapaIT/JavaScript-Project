@@ -15,7 +15,10 @@ const quotes = [
 ];
 
 btn.addEventListener("click", () => {
-    randomQuote = Math.floor(Math.random() * quotes.length);
-    output.innerHTML = randomQuote[quotes];
-    console.log(randomQuote);
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const randomQuote = quotes[randomIndex];
+    output.value = randomQuote;
+    console.log(randomIndex);
 });
+
+//value not holding on console

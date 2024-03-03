@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+/* .form button {
+    display: flex;
+    font-size: 90px;
+} */
+
+#btn{
+    background-color: red;
+    margin: none;
+}
+
