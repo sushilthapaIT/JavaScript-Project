@@ -15,6 +15,23 @@ body{
     border-radius: 15px;
 }
 
+#button, #color{
+    margin: 30px auto;
+    display: flex;
+}
+
 #button{
-    margin: 0 auto;
+    color: white;
+    background-color: rgb(41, 41, 179);
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#color{
+    height: 2.5rem;
+    width: 7rem;
+    cursor: pointer;
 }

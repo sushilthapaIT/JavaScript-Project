@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+.container{
+    margin: auto;
+    border: 1px solid black;
+    /* padding: 70px; */
+    font-size: 60px;
+    color: white;
+    background-color: black;
+}
+
+.v-input{
+    height: 70px;
+}
+
+#button{
+    display: flex;
+    margin: 20px auto;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+    background-color: rgb(58, 216, 58);
+}
+
+#button:hover{
+    background-color: rgb(10, 97, 10);
+}
