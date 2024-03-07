@@ -22,4 +22,3 @@ increment.addEventListener("click",
         innerTxt.innerText = val;
     
 });
-
