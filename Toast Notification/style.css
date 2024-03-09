@@ -24,12 +24,8 @@ margin: 50px;
 }
 
 
-#toastBox{
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    
+.toast.error {
+    background: red;
+    color: white;
+    padding: 20px;
 }
