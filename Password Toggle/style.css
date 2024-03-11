@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    min-width: 100vh;
+    background-color: rgb(70, 16, 141);
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+button{
+    display: flex;
+
+}
