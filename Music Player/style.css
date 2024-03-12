@@ -4,6 +4,14 @@
 }
 
 body{
-    min-height: 100vh;
-    
+    /* min-height: 100vh; */
+    display: flex;
+}
+
+.container{
+    margin: auto;
+    padding: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+    /* height: 95vh; */
 }
