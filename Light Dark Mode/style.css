@@ -1,0 +1,14 @@
+body{
+    min-height: 100vh;
+    display: flex;
+}
+
+.container{
+    margin: auto;
+    font-size: 10em;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: wheat;
+}
+
+
