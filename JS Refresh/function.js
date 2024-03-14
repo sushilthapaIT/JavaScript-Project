@@ -30,3 +30,18 @@ function Plus(a, b){
 
 const value = Plus(1,2)
 console.log(value);
+
+
+
+function finSum(n){
+    let ans = 0;
+    for(let i = 1; i < n; i++){
+        ans = ans + i;
+    }
+
+    return ans;
+}
+
+
+let val = finSum(10);
+console.log(val)
