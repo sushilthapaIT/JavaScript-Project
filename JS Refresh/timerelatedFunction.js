@@ -4,4 +4,7 @@ const currentDate = new Date();
 
 console.log(currentDate.getDate());
 console.log(currentDate.getFullYear());
-console.log(currentDate.getYear());
+
+console.log(currentDate);
+
+console.log(currentDate.getTime())
