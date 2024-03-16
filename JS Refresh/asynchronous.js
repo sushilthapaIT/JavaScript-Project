@@ -28,5 +28,5 @@ function printo(){
 setTimeout(printo, 3000);
 setTimeout(printo, 2000);
 setTimeout(printo, 1000);
-
+ 
 console.log("After waiting")
