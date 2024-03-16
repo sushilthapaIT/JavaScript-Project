@@ -1,8 +1,44 @@
+// callback
+function add(a, b){
+    return a + b;
+}
+
+function subtract(a, b){
+    return a - b;
+}
+
+function multiply(a, b){
+    return a * b;
+}
+
+function divide(a, b){
+    if (b === 0){
+        return `cannot process`
+    }
+    return a / b;
+}
+
+function giveBack(a, b, fn){
+    console.log("The addition of a + b is: ", fn(a,b))
+    fn()
+}
+
+giveBack(2,0,divide)
+giveBack(2,5,add)
+giveBack(2,3,subtract)
+giveBack(2,5,multiply)
+
+
+
+
+
 //sync 
 
 console.log("one");
 console.log("two");
 
+
+//async
 setTimeout( () => {
     console.log("i am settimout")
 }, 2000)
