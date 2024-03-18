@@ -21,11 +21,26 @@ function binary(x){
 
 const output = arr.map(double);
 
-console.log(output);
+// console.log(output);
 
 
 
 /*
 filter function
-
 */
+// forEach is used when you have multiple value
+
+let newAee = [1,2,3,4,5,6,7];
+let neAee = [1,2,3,4,5,6,7];
+
+let ne= newAee.filter(n => n%2 === 0) //takes argument and send ahead if it is true
+              .map( n => n*2) //take value and double it in this method
+              .forEach( n => {
+                console.log(n ,"\n");
+              })
+
+
+let neww= neAee.filter(n => n%2 === 0) //takes argument and send ahead if it is true
+              .map( n => n*2) //take value and double it in this method
+              .reduce((a, b) => a+b); 
+console.log(neww)

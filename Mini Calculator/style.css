@@ -12,6 +12,8 @@ body{
 .container{
     margin: auto;
     border: 10px solid black;
+    padding: 2%;
+    font-size: 20px;
 }
 
 .button-div{
@@ -23,4 +25,17 @@ button{
     padding: 5px;
     text-align: center;
     background-color: rgb(197, 128, 128);
+    cursor: pointer;
+    margin: 10px auto;
+
+}
+
+#result{
+    border: none;
+}
+
+#reset{
+    display: flex;
+    margin: 10px auto;
+    border: none;
 }
