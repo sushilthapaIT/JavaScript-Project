@@ -8,19 +8,19 @@ function add(a, b){
     return a + b;
 }
 
+// btn.addEventListener("click", () => {
+//     let one = parseInt(firNum.value);
+//     let two = parseInt(sirNum.value);
+//     let sum = add(one, two) 
+//     res.innerText = `Sum is ${sum}`;
+
+// });
+
 btn.addEventListener("click", () => {
     let one = parseInt(firNum.value);
     let two = parseInt(sirNum.value);
     let sum = add(one, two)
     res.innerText = `Sum is ${sum}`;
-
-});
-
-// btn.addEventListener("click", () => {
-//     let one = parseInt(firNum.value);
-//     let two = parseInt(sirNum.value);
-//     let sum = add(one, two)
-//     res.innerText = `Sum is ${sum}`;
     
-// });
+});
 
