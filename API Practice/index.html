@@ -1,0 +1,23 @@
+<html>
+   <header>
+       <title>Weekly Sales Numbers</title>
+   </header>
+   <body>
+       <table style="border: 1px;">
+           <tr>
+               <th></th>
+               {% for day in weekdays %}
+                   <th>{{ day }}</th>
+               {% endfor %}
+           </tr>
+           {% for row in sales %}
+               <tr>
+                   <td>{{ forloop.counter }}</td>
+                   {% for value in row %}
+                       <td>{{ value }}</td>
+                   {% endfor %}
+               </tr>
+           {% endfor %}
+       </table>
+   </body>
+</html>
